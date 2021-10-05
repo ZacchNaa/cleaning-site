@@ -3160,10 +3160,24 @@ fieldset:disabled .btn {
 	border-color: #00aeff;
 }
 .btn-primary:hover {
-	color: #00aeff;
+  color: #00aeff;
 	background-color: transparent;
 	border-color: #00aeff;
 }
+
+.btn-primary.job {
+  color: #00aeff;
+  background-color: transparent;
+  border-color: #00aeff;
+  margin-top: 2.5rem;
+}
+
+.btn-primary.job:hover {
+  color: #fff;
+  background-color: #00aeff;
+  border-color: #00aeff;
+}
+
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
 	color: #fff;
@@ -12153,6 +12167,14 @@ header.masthead .masthead-paragraph {
 		padding: 0 100px 20px 20px;
 	}
 }
+
+#team .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .team-member {
 	margin-bottom: 3rem;
 	text-align: center;

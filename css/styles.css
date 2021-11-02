@@ -7959,6 +7959,11 @@ fieldset:disabled .btn {
 	color: #6c757d !important;
 }
 
+.text-bright {
+	--bs-text-opacity: 1;
+	color: #dce3e9 !important;
+}
+
 .text-black-50 {
 	--bs-text-opacity: 1;
 	color: rgba(0, 0, 0, 0.5) !important;
@@ -11641,6 +11646,7 @@ header.masthead {
 	background-position: center center;
 	background-size: cover;
 }
+
 header.masthead .masthead-subheading {
 	font-size: 1.5rem;
 	font-style: italic;
